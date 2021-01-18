@@ -10,6 +10,6 @@
   },
   "scripts":{
     "start": "reveal-md content/ -w",
-    "build": "rm -rf public && reveal-md content/ --static docs --static-dirs=content/attachments && touch docs/.nojekyll"
+    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments"
   }
 }
