@@ -10,6 +10,6 @@
   },
   "scripts":{
     "start": "reveal-md content/ -w",
-    "build": "rm -rf public && reveal-md content/ --static docs --static-dirs=content/attachments"
+    "build": "rm -rf public && reveal-md content/ --static docs --static-dirs=content/attachments && cp -R theme docs/theme"
   }
 }
