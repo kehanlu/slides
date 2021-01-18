@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "reveal-md": "^4.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts":{
+    "start": "reveal-md content/ -w",
+    "build": "rm -rf public && reveal-md content/ --static docs --static-dirs=content/attachments"
+  }
+}
