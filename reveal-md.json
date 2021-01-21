@@ -2,7 +2,7 @@
     "separator": "\n---\n",
     "verticalSeparator": "\n----\n",
     "theme":"theme/mytheme.css",
-    "favicon": "favicon.ico",
     "absoluteUrl": "https://slides.hanklu.tw",
-    "listingTemplate": "listing.html"
+    "listingTemplate": "listing.html",
+    "template": "reveal.html"
 }

@@ -29,7 +29,12 @@
   <section class="section">
     <div class="container is-max-desktop">
       <h2 class="title">Hank's Slides</h2>
-      <a href="https://hanklu.tw">hanklu.tw</a> | <a href="https://slides.hanklu.tw">slides.hanklu.tw</a>
+      <a href="https://hanklu.tw">hanklu.tw</a> | <a href="https://blog.hanklu.tw">blog.hanklu.tw</a> |<a
+        href="https://slides.hanklu.tw">slides.hanklu.tw</a>
+      <p>>> <a
+          href="https://blog.hanklu.tw/post/2021/use-reveal-md-to-generate-multiple-slides-and-host-them-on-github-page/">Use
+          reveal-md to generate multiple slides and host them on GitHub Page
+        </a></p>
     </div>
   </section>
   <section class="section">
@@ -37,8 +42,11 @@
       <ul>
         {{#files}}
         <li>
+          <span class="tag is-light is-medium">{{date}}</span>
+
+          {{event}}:
           <a href="{{filePath}}" title="{{title}}">
-            {{#title}}{{.}}{{/title}}
+            {{title}}
           </a>
         </li>
         {{/files}}

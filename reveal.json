@@ -1,7 +1,8 @@
 {
     "controls": true,
     "progress": true,
-    "histroy": true,
+    "history": false,
     "center": false,
-    "slideNumber": true
+    "slideNumber": true,
+    "mouseWheel": true
 }

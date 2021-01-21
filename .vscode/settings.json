@@ -1,0 +1,7 @@
+{
+    "pasteImage.path": "${currentFileDir}/attachments",
+    "pasteImage.basePath": "${currentFileDir}",
+    "[markdown]":  {
+        "editor.quickSuggestions": true
+    }
+}

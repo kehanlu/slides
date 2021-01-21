@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>IR Final: Speech and BERT (21.01.15)</title>
-    <meta property="og:title" content="IR Final: Speech and BERT (21.01.15)" />
+    <title>Speech and BERT| Hank's slides</title>
+    <meta property="og:title" content="Speech and BERT" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://slides.hanklu.tw/featured-slide.jpg" />
     <meta property="og:url" content="https://slides.hanklu.tw" />
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="assets/theme/mytheme.css" id="theme" />
+    <link rel="stylesheet" href="_assets/theme/mytheme.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
 
   </head>
@@ -28,8 +28,6 @@
 </script></section><section  data-markdown><script type="text/template">
 # An Audio-enriched BERT-based Framework for Spoken Multiple-choice Question Answering <!-- .element: class="title" -->
 ## Chia-Chih Kuo, Shang-Bao Luo, Kuan-Yu Chen <!-- .element: class="subtitle" -->
-
-
 </script></section><section  data-markdown><script type="text/template">
 ## Outline
 
@@ -61,7 +59,7 @@
 <img src="attachments/2021-01-15-13-23-05.png" style="max-width:100%;"/>
 
 </script></section></section><section ><section data-markdown><script type="text/template">
-# Methodology <!-- .element: class="slide-center" -->
+# Methodology <!-- .element: class="section-title" -->
 </script></section><section data-markdown><script type="text/template">
 ## Vanilla BERT
 
@@ -175,7 +173,7 @@ $$
 
 <img src="attachments/2021-01-15-02-02-52.png" style="max-width:60%"/>
 </script></section></section><section ><section data-markdown><script type="text/template">
-# Experimental Setup <!-- .element: class="slide-center" -->
+# Experimental Setup <!-- .element: class="section-title" -->
 </script></section><section data-markdown><script type="text/template">## Experimental Setup
 
 **Dataset**
@@ -198,7 +196,7 @@ $$
   - Minimize MSE between acoustic-level representation ($v^{w_i}$) and token embeddings.
 - Finetune aeBERT
 </script></section></section><section ><section data-markdown><script type="text/template">
-# Experimental Results <!-- .element: class="slide-center" -->
+# Experimental Results <!-- .element: class="section-title" -->
 </script></section><section data-markdown><script type="text/template">
 ## Vanilla BERT
 
@@ -279,7 +277,7 @@ w.r.t **manual transcriptions** and **auto-transcribed text**
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"controls":true,"progress":true,"histroy":true,"center":false,"slideNumber":true}, queryOptions);
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"history":false,"center":false,"slideNumber":true,"mouseWheel":true}, queryOptions);
     </script>
 
 

@@ -96,7 +96,7 @@ $headingLineHeight: 1.4;
   font-size: 0.8em;
 }
 
-.slide-center {
+.slides .present .section-title {
   margin: 25% 10% !important;
   padding: 10px;
   text-align: center;
@@ -117,8 +117,12 @@ $headingLineHeight: 1.4;
 
 .footnote {
   font-size: 16px;
-  position: absolute;
+  position: absolute !important;
   bottom: 8px;
+}
+
+.img25 {
+  max-width: 25% !important;
 }
 
 .img50 {

@@ -1,5 +1,7 @@
 ---
-title: 'IR Final: Speech and BERT (21.01.15)'
+title: 'Speech and BERT'
+event: 'IR Final'
+date: "2021-01-15"
 
 ---
 
@@ -14,8 +16,6 @@ title: 'IR Final: Speech and BERT (21.01.15)'
 
 # An Audio-enriched BERT-based Framework for Spoken Multiple-choice Question Answering <!-- .element: class="title" -->
 ## Chia-Chih Kuo, Shang-Bao Luo, Kuan-Yu Chen <!-- .element: class="subtitle" -->
-
-
 
 ---
 
@@ -57,7 +57,7 @@ title: 'IR Final: Speech and BERT (21.01.15)'
 
 ---
 
-# Methodology <!-- .element: class="slide-center" -->
+# Methodology <!-- .element: class="section-title" -->
 
 ----
 
@@ -195,7 +195,7 @@ $$
 
 ---
 
-# Experimental Setup <!-- .element: class="slide-center" -->
+# Experimental Setup <!-- .element: class="section-title" -->
 
 ----
 ## Experimental Setup
@@ -224,7 +224,7 @@ $$
 
 ---
 
-# Experimental Results <!-- .element: class="slide-center" -->
+# Experimental Results <!-- .element: class="section-title" -->
 
 ----
 
