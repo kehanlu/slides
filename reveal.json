@@ -1,8 +1,9 @@
 {
     "controls": true,
     "progress": true,
-    "history": false,
+    "history": true,
     "center": false,
     "slideNumber": true,
-    "mouseWheel": true
+    "mouseWheel": true,
+    "transitionSpeed": "fast"
 }

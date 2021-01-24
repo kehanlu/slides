@@ -34,11 +34,11 @@ https://arxiv.org/abs/1705.00464 <!-- .element: class="footnote" -->
 ## Task
 
 **VQA**
-- Question✏️ + Image🖼️ -> Answer✏️
+- Question✏️ + Image🖼️ ➝ Answer✏️
 
 **Speech-based VQA**
-- Question🔉 + Image🖼️ -> Answer✏️
-- Vision + Text + Speech
+- Question🔉 + Image🖼️ ➝ Answer✏️
+- Vision + Text + Speech + (Reasoning)
 
 - Speech-based VQA can be used to **assist blind people** in performing ordinary tasks, and to
 dictate robotics in real visual scenes in a **hand-free manner** such as
@@ -57,9 +57,9 @@ clinical robotic surgery
 - Investigates the potential of integrating vision and speech in the context of VQA
 
 **2 methods**
-- End-to-end: audio -> answer
+- End-to-end: audio ➝ answer
   - Useful for languages that have less text-speech data.
-- ASR: audio -> ASR -> Text-based method -> answer
+- ASR: audio ➝ ASR ➝ Text-based method ➝ answer
 
 
 ----
@@ -105,7 +105,7 @@ clinical robotic surgery
 - Last layer of VGG19
 - Dense
 - Merge: using element-wise multiplication
-- Dense output -> Probability distribution over N classes
+- Dense output ➝ Probability distribution over N classes
 
 ![](attachments/2021-01-22-03-20-57.png)
 
