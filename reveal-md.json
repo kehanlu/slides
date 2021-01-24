@@ -4,5 +4,6 @@
     "theme":"theme/mytheme.css",
     "absoluteUrl": "https://slides.hanklu.tw",
     "listingTemplate": "listing.html",
-    "template": "reveal.html"
+    "template": "reveal.html",
+    "assetsDir": "assets"
 }

@@ -8,9 +8,9 @@
     "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1"
   },
-  "scripts":{
+  "scripts": {
     "start": "reveal-md content/ -w",
-    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments && mv docs/_assets docs/assets && cp CNAME docs/CNAME",
+    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments && cp CNAME docs/CNAME",
     "push": "git add . && git commit -m \"`date`\" && git push"
   }
 }
