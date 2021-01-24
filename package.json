@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "reveal-md content/ -w",
-    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments && cp CNAME docs/CNAME",
+    "build": "rm -rf docs && reveal-md content/ --static docs --static-dirs=content/attachments && cp -r theme/fonts docs/assets/fonts && cp -r static/* docs",
     "push": "git add . && git commit -m \"`date`\" && git push"
   }
 }
