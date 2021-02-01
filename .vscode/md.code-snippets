@@ -30,5 +30,12 @@
 		"scope": "markdown",
 		"prefix": ["section-title"],
 		"body": "## $1 <!-- .element: class=\"section-title\" -->"
+	},
+	"arrow":{
+		"scope": "markdown",
+		"prefix": ["->"],
+		"body": "➝"
 	}
+
+	
 }
