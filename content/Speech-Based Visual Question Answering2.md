@@ -6,6 +6,7 @@ date: "2021-02-02"
 ---
 
 # Speech-Based Visual Question Answering <!-- .element: class="title" -->
+## Ted Zhang, Dengxin Dai, Tinne Tuytelaars, Marie-Francine Moens, Luc Van Gool<br> 2017 <!-- .element: class="subtitle" -->
 
 <div class="title-name">
 2021.02.02 <br>
@@ -148,6 +149,8 @@ Baseline: LSTM Q+I (from $\text{VQA1.0}$)<!-- .element: class="footnote" -->
 
 ![](attachments/2021-01-22-05-36-13.png) <!-- .element: class="img75" -->
 
+All "yes": 29.66, 70.81, 0.39, 1.15 <!-- .element: class="footnote" -->
+
 ---
 
 ## Discussion <!-- .element: class="section-title" -->
@@ -156,7 +159,7 @@ Baseline: LSTM Q+I (from $\text{VQA1.0}$)<!-- .element: class="footnote" -->
 
 ## Discussion
 
-- (modality) Speech contains more information than text
+- Speech contains more information than text
   - best performing model must be that which extract **patterns most effectively**
 - TextMod: relies on ASR
   - ASR is more complicated than entire SpeechMod
