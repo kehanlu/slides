@@ -47,7 +47,7 @@ https://arxiv.org/abs/1705.00464 <!-- .element: class="footnote" -->
 
 ## Dataset (VQA)
 
-https://visualqa.org/ <!-- .element: class="footnote" -->
+<span>https://competitions.codalab.org/competitions/6961, https://visualqa.org/ </span> <!-- .element: class="footnote" -->
 
 - VQA 1.0: 2015~2017
 - VQA 2.0: 2017~present
@@ -72,8 +72,6 @@ $\text{VQA 1.0}$
   - 200 hours synthetic audio
 - 1000 human-recorded questions (not released)
 
-
-<span>https://competitions.codalab.org/competitions/6961</span> <!-- .element: class="footnote" -->
 
 ---
 
