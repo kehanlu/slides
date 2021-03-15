@@ -35,6 +35,11 @@
 		"scope": "markdown",
 		"prefix": ["->"],
 		"body": "➝"
+	},
+	"smallText":{
+		"scope": "markdown",
+		"prefix": ["small"],
+		"body": "<!-- .element: class=\"small\" -->"
 	}
 
 	

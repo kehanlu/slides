@@ -2,6 +2,7 @@
 title: 'Speech-Based Visual Question Answering'
 event: 'Lab meeting'
 date: "2021-01-26"
+theme: theme/mytheme.css
 
 ---
 

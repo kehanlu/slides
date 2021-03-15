@@ -5,6 +5,11 @@
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Open+Sans&family=Roboto&family=Source+Sans+Pro:wght@300&family=Ubuntu&display=swap");
+.reveal {
+  letter-spacing: 0.03rem;
+}
+
 .reveal img {
   display: block;
   margin-left: auto;
@@ -40,16 +45,22 @@
   line-height: 1.5;
 }
 
+.slides .present li {
+  padding: 0.2rem 0;
+}
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff;
 }
 
 .slides .present h1.title {
+  letter-spacing: 0.03rem;
   margin-top: 20%;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid DodgerBlue;
 }
 
 .slides .present h2.subtitle {
+  letter-spacing: 0.03rem;
   border: none;
   padding: 0px;
 }
@@ -66,11 +77,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin: 25% 10% !important;
   padding: 10px;
   text-align: center;
-  border-bottom: 2px solid tomato;
+  border-bottom: 2px solid DodgerBlue;
 }
 
 .slides .present h2 {
-  border-bottom: 2px solid tomato;
+  letter-spacing: 0.03rem;
+  border-bottom: 2px solid DodgerBlue;
   padding: 20px 20px 0px 20px;
 }
 
@@ -105,17 +117,26 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   max-width: 100% !important;
 }
 
+.small {
+  font-size: 0.6em;
+}
+
+.reveal table th,
+.reveal table td {
+  text-align: right !important;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
   --background-color: #fff;
-  --main-font: Nunito, sans-serif;
-  --main-font-size: 32px;
+  --main-font: Open sans, Noto Sans TC, sans-serif;
+  --main-font-size: 30px;
   --main-color: #333;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Nunito, sans-serif;
+  --heading-font: Open sans, Noto Sans TC, sans-serif;
   --heading-color: #333;
   --heading-line-height: 1.4;
   --heading-letter-spacing: normal;
@@ -140,8 +161,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal {
-  font-family: "Nunito", sans-serif;
-  font-size: 32px;
+  font-family: "Open sans", "Noto Sans TC", sans-serif;
+  font-size: 30px;
   font-weight: normal;
   color: #333;
 }
@@ -175,7 +196,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #333;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open sans", "Noto Sans TC", sans-serif;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: normal;
@@ -441,6 +462,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   .backgrounds {
     background-color: #fff;
   }
+}
+.reveal table th,
+.reveal table td,
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border: 1px solid gray;
 }
 
 /*# sourceMappingURL=mytheme.css.map */

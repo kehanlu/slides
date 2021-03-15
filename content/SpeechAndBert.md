@@ -2,6 +2,7 @@
 title: 'Speech and BERT'
 event: 'IR Final'
 date: "2021-01-15"
+theme: theme/mytheme.css
 
 ---
 

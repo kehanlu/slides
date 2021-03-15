@@ -1,9 +1,10 @@
 {
-    "controls": true,
-    "progress": true,
-    "history": true,
-    "center": false,
-    "slideNumber": true,
-    "mouseWheel": true,
-    "transitionSpeed": "fast"
+  "controls": true,
+  "progress": true,
+  "history": true,
+  "center": false,
+  "slideNumber": true,
+  "mouseWheel": true,
+  "transitionSpeed": "fast",
+  "transition": "none"
 }
